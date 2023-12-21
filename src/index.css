@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fun{
+  transition: transform 0.3s ease-in-out;
+}
+.fun:hover {
+  transform: scale(1.1);
+}
+.text{
+  color: rgb(236, 235, 248);
+  border:solid cornsilk;
+  border-radius: 15px;
+ 
+}
